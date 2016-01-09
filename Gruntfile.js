@@ -25,6 +25,13 @@ module.exports = function (grunt) {
         files: {
           'test/test.png': ['test/test.puml']
         }
+      },
+      classic: {
+        src: ['test/classic*.puml'],
+        dest: 'test',
+        options: {
+          format: 'ascii'
+        }
       }
     },
 
@@ -37,7 +44,7 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      tests:    ['test/test.png'],
+      tests:    ['test/test.png', 'test/classic.txt'],
       coverage: ['coverage']
     },
 

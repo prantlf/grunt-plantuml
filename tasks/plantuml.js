@@ -18,7 +18,6 @@ module.exports = function (grunt) {
   function processDiagram(fileSrc, fileDest, options) {
     try {
       grunt.log.subhead('Processing diagram "' + fileSrc + '"');
-      var input = grunt.file.read(fileSrc, {encoding: options.charset});
       return Q.Promise(function (resolve, reject) {
         try {
           var generator = plantuml.generate(fileSrc, options,
