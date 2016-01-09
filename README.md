@@ -12,7 +12,8 @@ easily, without committing both diagram sources and pictures and sychronizing
 them manually.
 
 If you want to just quickly convert a yuml source file to a picture, you
-can use the [plantuml] command-line tool `puml`, which this task is based on.
+can use the [node-plantuml] command-line tool `puml`, which this task is based
+on.
 
 ## Installation
 
@@ -111,7 +112,7 @@ your code using Grunt.
 
 ## Release History
 
- * 2016-01-10   v0.1.1   Initial release
+ * 2016-01-10   v0.1.2   Initial release
 
 ## License
 
@@ -125,4 +126,5 @@ Licensed under the MIT license.
 [Grunt]: https://gruntjs.com
 [Gruntfile]: http://gruntjs.com/sample-gruntfile
 [Getting Gtarted]: https://github.com/gruntjs/grunt/wiki/Getting-started
-[plantuml]: https://github.com/markushedvall/node-plantuml
+[plantuml]: http://plantuml.com/
+[node-plantuml]: https://github.com/markushedvall/node-plantuml
