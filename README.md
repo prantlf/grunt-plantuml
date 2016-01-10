@@ -11,7 +11,7 @@ pictures only during the documentation build.  You will be able to do changes
 easily, without committing both diagram sources and pictures and sychronizing
 them manually.
 
-If you want to just quickly convert a yuml source file to a picture, you
+If you want to just quickly convert a plantuml source file to a picture, you
 can use the [node-plantuml] command-line tool `puml`, which this task is based
 on.
 
@@ -55,7 +55,7 @@ grunt.initConfig({
 });
 ```
 The configuration consists of key-value pairs with the output image path
-as a key pointing to the yuml input file.  If you specify more source
+as a key pointing to the plantuml input file.  If you specify more source
 files by wildcards, the destination should be a directory; the source file
 extension wil lbe replaced by the output format in the output file name.
 
@@ -89,7 +89,7 @@ grunt.initConfig({
   plantuml: {
     one: {
       files: {
-        'dist/doc/images/diagram.png': ['doc/images/diagram.yuml']
+        'dist/doc/images/diagram.png': ['doc/images/diagram.puml']
       },
       options: {
         dot: '...',       // path to the dot executable
@@ -112,7 +112,7 @@ your code using Grunt.
 
 ## Release History
 
- * 2016-01-10   v0.1.2   Initial release
+ * 2016-01-10   v0.1.3   Initial release
 
 ## License
 

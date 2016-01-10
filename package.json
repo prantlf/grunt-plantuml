@@ -1,7 +1,7 @@
 {
   "name": "grunt-plantuml",
   "description": "Grunt task to generate images from plantuml diagram sources",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/prantlf/grunt-plantuml",
   "author": {
     "name": "Ferdinand Prantl",
