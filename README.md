@@ -112,6 +112,7 @@ your code using Grunt.
 
 ## Release History
 
+ * 2016-03-04   v0.1.5   Fix missing direct dependency on node-plantuml
  * 2016-03-04   v0.1.4   Update dependencies
  * 2016-01-10   v0.1.3   Initial release
 
