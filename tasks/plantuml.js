@@ -66,7 +66,7 @@ module.exports = function (grunt) {
                 // If the destination is a directory, use the source file name
                 // with the target image format as extension
                 var dest = single ? file.dest : path.join(file.dest,
-                      path.base(src, path.extname(src)) + '.' + extension),
+                      path.basename(src, path.extname(src)) + '.' + extension),
                     dir = path.dirname(dest);
                 grunt.file.mkdir(dir);
                 return processDiagram(src, dest, options);
