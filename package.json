@@ -46,14 +46,8 @@
     "jshint-stylish": "^2.2.1",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0",
-<<<<<<< HEAD
     "semantic-release": "^15.1.7",
     "travis-deploy-once": "^4.4.1"
-||||||| merged common ancestors
-    "semantic-release": "^12.2.2"
-=======
-    "semantic-release": "^15.0.0"
->>>>>>> 178d8ee336953f31d2b0955c8133d11b2a12bbfc
   },
   "keywords": [
     "gruntplugin",
