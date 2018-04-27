@@ -32,7 +32,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "node-plantuml": "^0.6.0",
+    "node-plantuml": "^0.6.2",
     "q": "^2.0.3"
   },
   "devDependencies": {
