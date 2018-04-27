@@ -29,23 +29,25 @@
     "test": "grunt",
     "check_coverage": "GRUNT_PLANTUML_COVERAGE=1 grunt",
     "post_coverage": "GRUNT_PLANTUML_COVERAGE=1 grunt default coveralls",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {
-    "node-plantuml": "^0.5.0",
+    "node-plantuml": "^0.6.2",
     "q": "^2.0.3"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.2",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodeunit": "^1.0.0",
-    "grunt-coveralls": "^1.0.1",
+    "grunt-coveralls": "^2.0.0",
     "grunt-istanbul": "^0.8.0",
     "jshint-stylish": "^2.2.1",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0",
-    "semantic-release": "^12.2.2"
+    "semantic-release": "^15.1.7",
+    "travis-deploy-once": "^4.4.1"
   },
   "keywords": [
     "gruntplugin",

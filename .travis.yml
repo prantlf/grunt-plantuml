@@ -6,9 +6,9 @@ cache:
 notifications:
   email: false
 node_js:
+  - '10'
   - '8'
   - '6'
-  - '4'
 addons:
   apt:
     packages:
@@ -19,7 +19,7 @@ before_script:
   - npm install -g grunt-cli
   - npm prune
 after_success:
-  - npm run semantic-release
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
