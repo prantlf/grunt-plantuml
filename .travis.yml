@@ -13,11 +13,8 @@ addons:
   apt:
     packages:
       - graphviz
-before_install:
-  - npm install -g npm
 before_script:
   - npm install -g grunt-cli
-  - npm prune
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
