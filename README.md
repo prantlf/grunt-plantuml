@@ -1,4 +1,13 @@
-# grunt-plantuml [![NPM version](https://badge.fury.io/js/grunt-plantuml.png)](http://badge.fury.io/js/grunt-plantuml) [![Build Status](https://travis-ci.org/prantlf/grunt-plantuml.png)](https://travis-ci.org/prantlf/grunt-plantuml) [![Coverage Status](https://coveralls.io/repos/prantlf/grunt-plantuml/badge.svg)](https://coveralls.io/r/prantlf/grunt-plantuml) [![Dependency Status](https://david-dm.org/prantlf/grunt-plantuml.svg)](https://david-dm.org/prantlf/grunt-plantuml) [![devDependency Status](https://david-dm.org/prantlf/grunt-plantuml/dev-status.svg)](https://david-dm.org/prantlf/grunt-plantuml#info=devDependencies) [![devDependency Status](https://david-dm.org/prantlf/grunt-plantuml/peer-status.svg)](https://david-dm.org/prantlf/grunt-plantuml#info=peerDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/prantlf/grunt-plantuml.svg)](https://greenkeeper.io/) [![Code Climate](https://codeclimate.com/github/prantlf/grunt-plantuml/badges/gpa.svg)](https://codeclimate.com/github/prantlf/grunt-plantuml) [![Codacy Badge](https://www.codacy.com/project/badge/f3896e8dfa5342b8add12d50390edfcd)](https://www.codacy.com/public/prantlf/grunt-plantuml) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# grunt-plantuml
+[![NPM version](https://badge.fury.io/js/grunt-plantuml.png)](http://badge.fury.io/js/grunt-plantuml)
+[![Build Status](https://travis-ci.org/prantlf/grunt-plantuml.png)](https://travis-ci.org/prantlf/grunt-plantuml)
+[![Coverage Status](https://coveralls.io/repos/prantlf/grunt-plantuml/badge.svg)](https://coveralls.io/r/prantlf/grunt-plantuml)
+[![Dependency Status](https://david-dm.org/prantlf/grunt-plantuml.svg)](https://david-dm.org/prantlf/grunt-plantuml)
+[![devDependency Status](https://david-dm.org/prantlf/grunt-plantuml/dev-status.svg)](https://david-dm.org/prantlf/grunt-plantuml#info=devDependencies)
+[![devDependency Status](https://david-dm.org/prantlf/grunt-plantuml/peer-status.svg)](https://david-dm.org/prantlf/grunt-plantuml#info=peerDependencies)
+[![Code Climate](https://codeclimate.com/github/prantlf/grunt-plantuml/badges/gpa.svg)](https://codeclimate.com/github/prantlf/grunt-plantuml)
+[![Codacy Badge](https://www.codacy.com/project/badge/f3896e8dfa5342b8add12d50390edfcd)](https://www.codacy.com/public/prantlf/grunt-plantuml)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 [![NPM Downloads](https://nodei.co/npm/grunt-plantuml.png?downloads=true&stars=true)](https://www.npmjs.com/package/grunt-plantuml)
 
