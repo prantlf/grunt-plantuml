@@ -132,7 +132,7 @@ your code using Grunt.
 
 ## License
 
-Copyright (c) 2016-2018 Ferdinand Prantl
+Copyright (c) 2016-2019 Ferdinand Prantl
 
 Licensed under the MIT license.
 
